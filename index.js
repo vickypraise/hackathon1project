@@ -2,13 +2,13 @@ document.getElementById("containermeaning").style.display="none"
 async function check(){
     var inp = document.getElementById("input").value;
    
-    if(inp.lenght > 0){   
+    if(inp.length > 0){   
         try{
         
-            const url = 'https://api.dictionaryapi.dev/api/v2/entries/en/${inp}';
+            const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${inp}`;
             const resp = await axios.get(url);
             const data = resp.data[0];
-            document.write(resp);
+            console.log(resp);
             
             
             document.getElementById("containermeaning").style.display="block";

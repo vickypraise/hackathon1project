@@ -8,6 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     <title>Hello, world!</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body class="body">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -48,18 +49,19 @@
         <h1>dictionary</h1>
         <h4>English dictionary</h4>
     </div>
-   <div class="inp">
+
+
+
     <input type="text" name="" id="input" placeholder="search any word here" required class="form-control">
     <button onclick="check()" class="btn btn-primary">check</button>
-   </div>
    
    
     <div class="word" id="containermeaning">
         <h1 id="word"></h1>
         <p id="definition"></p>
-        <p id="error"></p>
-        <audio src="" id="audio" controls></audio>
+        <audio src="" id="audio" controls autoplay></audio>
     </div>
+    <p id="error"></p>
     <script src="index.js"></script>
   </body>
 </html>
