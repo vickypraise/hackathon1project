@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body class="body">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <img src="/image/logo.jpg" alt="" class="logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="dictionary.html">dictionary</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  exam type
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="index.html#waec/neco">waec/neco</a></li>
+                  <li><a class="dropdown-item" href="index.html#jamb">jamb</a></li>
+                  <li><a class="dropdown-item" href="service.html">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="heading">
+        <h1>dictionary</h1>
+        <h4>English dictionary</h4>
+    </div>
+   <div class="inp">
+    <input type="text" name="" id="input" placeholder="search any word here" required class="form-control">
+    <button onclick="check()" class="btn btn-primary">check</button>
+   </div>
+   
+   
+    <div class="word" id="containermeaning">
+        <h1 id="word"></h1>
+        <p id="definition"></p>
+        <p id="error"></p>
+        <audio src="" id="audio" controls></audio>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

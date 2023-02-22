@@ -1,0 +1,68 @@
+.about{
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.918), rgba(0, 0, 0, 0.884) ), url(/image/student.png);
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    background-color: rgb(68, 75, 80);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 5%;
+}
+.heading{
+    color: aliceblue;
+    background-color: goldenrod;
+    text-align: center;
+}
+.body{
+    background-color: black; 
+}
+
+.inp{
+    text-align: center;
+}
+.waec{
+    text-align: center;
+    background-color: rgb(17, 17, 114);
+    color: aliceblue;
+}
+.jamb{
+    text-align: center;
+    background-color: rgb(17, 17, 114);
+    color: aliceblue;
+}
+.jamb2{
+    margin-top: 2%;
+}
+.waec2{
+    margin-top: 2%;
+}
+.logo{
+    width: 10%;
+}
+.ss{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.918), rgba(0, 0, 0, 0.884) ), url(/image/Waec_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 45%;
+}
+.ff{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.918), rgba(0, 0, 0, 0.884) ), url(/image/Official_JAMB_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 45%;
+}
+.word{
+    color: aliceblue;
+}
+.footer2{
+    margin-top: 7%;
+    background-color: black;
+    color: aliceblue;
+}
+
+.collapse-navbar-collapse{
+    margin-left: 30%;
+}
