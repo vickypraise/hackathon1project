@@ -57,13 +57,12 @@
 .word{
     color: aliceblue;
 }
-.footer2{
+.footer3{
     margin-top: 7%;
-    background-color: black;
+    background-color: rgb(8, 2, 28);
     color: aliceblue;
 }
 
 .collapse-navbar-collapse{
     margin-left: 30%;
 }
-
